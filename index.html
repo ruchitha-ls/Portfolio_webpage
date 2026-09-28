@@ -4,100 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ruchitha L - Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Header Section -->
     <header class="header">
         <div class="header-content">
             <h1 class="name">Ruchitha L</h1>
-            <p class="tagline">First-year B.Tech ECE Student at PESU</p>
+            <p class="tagline">Second-year B.Tech ECE Student at PES University</p>
         </div>
     </header>
 
-    <main>
+    <!-- Main Content -->
+    <main class="container">
+        
+        <!-- About Section -->
         <section id="about" class="section">
-            <div class="section-content">
-                <u><h2>About Me</h2></u>
-                <p>Hello! I'm a first-year B.Tech ECE student at PES University, exploring my interests in technology. My objective is to apply my programming and IoT knowledge to build practical skills through projects and internships. I'm passionate about problem-solving and teamwork. Currently, I am exploring different areas of tech to find my niche.</p>
-            </div>
+            <h2 class="section-title">About Me</h2>
+            <p>
+                Hello! I'm a second-year B.Tech ECE student at PES University, exploring my interests in technology. 
+                My objective is to apply my software and hardware knowledge to build practical skills through projects, 
+                hackathons and internships. I'm passionate about problem-solving, continuous learning, and teamwork. 
+                Currently, I am actively exploring different tech domains to find my niche.
+            </p>
         </section>
-        <hr>
-        <section id="skills" class="section">
-            <div class="section-content">
-                <u><h2>Skills</h2></u>
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <h3>Programming</h3>
-                        <p>Python (Beginner), Java (Beginner), HTML (Beginner), CSS (Beginner)</p>
-                    </div>
-                    <div class="skill-card">
-                        <h3>Tools</h3>
-                        <p>GitHub, VS Code</p>
-                    </div>
-                    <div class="skill-card">
-                        <h3>Electronics</h3>
-                        <p>Arduino (Learning)</p>
-                    </div>
-                    <div class="skill-card">
-                        <h3>Soft Skills</h3>
-                        <p>Problem-Solving, Teamwork</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section id="projects" class="section">
-            <div class="section-content">
-                <u><h2>Projects</h2></u>
-                <div class="project-card">
-                    <h3>Portfolio Website </h3>
-                    <p>A simple portfolio webpage using HTML & CSS.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Mood Journal website (Ongoing)</h3>
-                    <p>Developing a mood journal website from scratch to journal and log our day.</p>
-                </div>
-                <div class="project-card">
-                    <h3>IoT Weather Monitor (Planned)</h3>
-                    <p>An Arduino-based system designed to display temperature & humidity.</p>
-                </div>
-            </div>
-        </section>
-        <hr>
-    <section id="interests" class="section">
-        <div class="section-content">
-            <u><h2>Interests</h2></u>
-            <div class="interests-grid">
-                <div class="interest-card">
-                    <h3>Web Development</h3>
-                    <p>Exploring HTML, CSS, and other frontend technologies. <br> Working with Python, Java, and other Backend technologies.</p>
-                </div>
-                <div class="interest-card">
-                    <h3>IoT Systems</h3>
-                    <p>Learning about Arduino and planning an IoT Weather Monitor project.</p>
-                </div>
-                <div class="interest-card">
-                    <h3>Music</h3>
-                    <p>Enjoying and exploring different genres of music.</p>
-                </div>
-                <div class="interest-card">
-                    <h3>Fitness</h3>
-                    <p>Passionate about staying active and healthy.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <hr>
-</main>
 
-    <br><center>
-     <footer class="footer">
-        <div class="footer-content">
-            <div class="contact-info">
-                <p>Mail: l.ruchitha007@gmail.com </p>
-                <p>Github: <a href="https://github.com/ruchitha-ls" target="_blank">github.com/ruchitha-ls</a></p>
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="card skill-card">
+                    <h3>Programming</h3>
+                    <p>Python, Java, HTML5, CSS3, C, C++, Javascript</p>
+                </div>
+                <div class="card skill-card">
+                    <h3>Tools & Platforms</h3>
+                    <p>Git, GitHub, VS Code</p>
+                </div>
+                <div class="card skill-card">
+                    <h3>Hardware</h3>
+                    <p>HDL: System Verilog, Embedded C(basics)</p>
+                </div>
+                <div class="card skill-card">
+                    <h3>Soft Skills</h3>
+                    <p>Problem-Solving, Collaboration, Communication</p>
+                </div>
             </div>
-		<br><hr><br>
-    </center></footer>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="card project-card">
+                    <div class="badge badge-completed">Completed</div>
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive personal portfolio page built using HTML5 and modern CSS3 custom properties.</p>
+                </div>
+                <div class="card project-card">
+                    <div class="badge badge-completed">Completed</div>
+                    <h3>Mood Journal Web App</h3>
+                    <p>A MERN-stack journal application to log, track, and visualize daily moods.</p>
+                </div>
+                <div class="card project-card">
+                    <div class="badge badge-completed">Completed</div>
+                    <h3>API WebTools Assistant</h3>
+                    <p>A Secure API Integration demonstration project built as a Python desktop GUI. Focuses on robust data fetching (Weather/News/Currency) and configuration security, showing early exposure to full-stack and security best practices.</p>
+                </div>
+                <div class="card project-card">
+                    <div class="badge badge-ongoing">Ongoing</div>
+                    <h3>MQTT telemetry logger</h3>
+                    <p>A low-power IoT telemetry logger that collects real-time sensor data over SPI/I2C and publishes it securely to a cloud broker via MQTT.</p>
+                </div>
+                <div class="card project-card">
+                    <div class="badge badge-planned">Planned</div>
+                    <h3>Flask data logger</h3>
+                    <p>A full-stack IoT telemetry system utilizing an embedded client to stream sensor data via MQTT to a Flask-based web application for real-time logging and visualization.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section id="interests" class="section">
+            <h2 class="section-title">Interests</h2>
+            <div class="interests-grid">
+                <div class="card interest-card">
+                    <h3>Web Development</h3>
+                    <p>Building responsive and useful full-stack interfaces.</p>
+                </div>
+                <div class="card interest-card">
+                    <h3>IoT Systems, Embedded systems</h3>
+                    <p>Sensor integration, microcontroller programming, and embedded hardware solutions.</p>
+                </div>
+                <div class="card interest-card">
+                    <h3>Music</h3>
+                    <p>Exploring diverse genres, music production, and audio aesthetics.</p>
+                </div>
+                <div class="card interest-card">
+                    <h3>Fitness</h3>
+                    <p>Staying physically active, calisthenics, and maintaining health.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p><strong>Email:</strong> <a href="mailto:l.ruchitha007@gmail.com">l.ruchitha007@gmail.com</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/ruchitha-ls" target="_blank" rel="noopener noreferrer">github.com/ruchitha-ls</a></p>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Ruchitha L. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
